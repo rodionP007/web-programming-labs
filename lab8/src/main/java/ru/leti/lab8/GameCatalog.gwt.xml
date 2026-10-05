@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module rename-to="gamecatalog">
+
+    <!-- Основные библиотеки GWT -->
+    <inherits name="com.google.gwt.user.User"/>
+
+    <!-- Стандартная тема оформления -->
+    <inherits name="com.google.gwt.user.theme.clean.Clean"/>
+
+    <!-- Главный клиентский класс -->
+    <entry-point class="ru.leti.lab8.client.GameCatalog"/>
+
+    <!-- Пакеты, код которых участвует в GWT-компиляции -->
+    <source path="client"/>
+    <source path="shared"/>
+
+</module>
